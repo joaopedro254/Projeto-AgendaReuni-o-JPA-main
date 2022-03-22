@@ -1,0 +1,301 @@
+[EL Fine]: server: 2021-12-15 19:31:44.221--Thread(Thread[AWT-EventQueue-0,6,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2021-12-15 19:31:44.359--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Reuniao] is set to [FIELD].
+[EL Config]: metadata: 2021-12-15 19:31:44.388--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to many mapping element [field participantes] is being defaulted to: class modelo.Participante.
+[EL Config]: metadata: 2021-12-15 19:31:44.389--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Participante] is set to [FIELD].
+[EL Config]: metadata: 2021-12-15 19:31:44.389--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to many mapping element [field reunioes] is being defaulted to: class modelo.Reuniao.
+[EL Config]: metadata: 2021-12-15 19:31:44.39--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The access type for the persistent class [class modelo.Convidado] is set to [FIELD].
+[EL Config]: metadata: 2021-12-15 19:31:44.39--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Reuniao] is being defaulted to: Reuniao.
+[EL Config]: metadata: 2021-12-15 19:31:44.392--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Reuniao] is being defaulted to: REUNIAO.
+[EL Config]: metadata: 2021-12-15 19:31:44.403--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [assunto] is being defaulted to: ASSUNTO.
+[EL Config]: metadata: 2021-12-15 19:31:44.404--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-15 19:31:44.404--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [datahora] is being defaulted to: DATAHORA.
+[EL Config]: metadata: 2021-12-15 19:31:44.404--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-12-15 19:31:44.406--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Convidado] is being defaulted to: Convidado.
+[EL Config]: metadata: 2021-12-15 19:31:44.406--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The alias name for the entity class [class modelo.Participante] is being defaulted to: Participante.
+[EL Config]: metadata: 2021-12-15 19:31:44.406--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Participante] is being defaulted to: PARTICIPANTE.
+[EL Config]: metadata: 2021-12-15 19:31:44.407--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-15 19:31:44.407--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-15 19:31:44.407--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2021-12-15 19:31:44.408--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-12-15 19:31:44.408--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The table name for entity [class modelo.Convidado] is being defaulted to: CONVIDADO.
+[EL Config]: metadata: 2021-12-15 19:31:44.408--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The target entity (reference) class for the many to many mapping element [field reunioes] is being defaulted to: class modelo.Reuniao.
+[EL Config]: metadata: 2021-12-15 19:31:44.409--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2021-12-15 19:31:44.409--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-15 19:31:44.409--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [empresa] is being defaulted to: EMPRESA.
+[EL Config]: metadata: 2021-12-15 19:31:44.409--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2021-12-15 19:31:44.409--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The column name for element [versao] is being defaulted to: VERSAO.
+[EL Config]: metadata: 2021-12-15 19:31:44.422--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The join table name for the many to many mapping [field participantes] is being defaulted to: REUNIAO_PARTICIPANTE.
+[EL Config]: metadata: 2021-12-15 19:31:44.425--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The source primary key column name for the many to many mapping [field participantes] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-15 19:31:44.425--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The source foreign key column name for the many to many mapping [participantes] is being defaulted to: reunioes_ID.
+[EL Config]: metadata: 2021-12-15 19:31:44.425--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The target primary key column name for the many to many mapping [field participantes] is being defaulted to: ID.
+[EL Config]: metadata: 2021-12-15 19:31:44.425--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--The target foreign key column name for the many to many mapping [participantes] is being defaulted to: participantes_ID.
+[EL Info]: 2021-12-15 19:31:44.517--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.9.v20210604-2c549e2208
+[EL Fine]: connection: 2021-12-15 19:31:44.79--Thread(Thread[AWT-EventQueue-0,6,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Fine]: connection: 2021-12-15 19:31:44.797--ServerSession(1023583174)--Connection(612371463)--Thread(Thread[AWT-EventQueue-0,6,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/agendaReuniao"
+))
+[EL Config]: connection: 2021-12-15 19:31:44.864--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--Connected: jdbc:postgresql://localhost:5432/agendaReuniao
+	User: postgres
+	Database: PostgreSQL  Version: 14.0
+	Driver: PostgreSQL JDBC Driver  Version: 42.3.0
+[EL Fine]: connection: 2021-12-15 19:31:44.92--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/joaoj/Desktop/testset/projeto-AgendaReuniao-JPA/target/classes/_eclipselink-postgres_url=jdbc:postgresql://localhost:5432/agendaReuniao login successful
+[EL Fine]: sql: 2021-12-15 19:31:44.969--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--select nextval('SEQ_GEN_SEQUENCE')
+[EL Fine]: sql: 2021-12-15 19:31:44.972--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--ALTER SEQUENCE SEQ_GEN_SEQUENCE INCREMENT BY 50
+[EL Fine]: sql: 2021-12-15 19:31:49.254--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:49.26--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:31:49.263--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1451]
+[EL Fine]: sql: 2021-12-15 19:31:49.264--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:31:49.265--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1452]
+[EL Fine]: sql: 2021-12-15 19:31:49.266--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:31:49.267--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:31:49.268--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:31:49.269--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:31:49.27--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:31:49.271--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:31:49.272--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1453]
+[EL Fine]: sql: 2021-12-15 19:31:49.273--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:31:49.274--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:31:49.275--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1454]
+[EL Fine]: sql: 2021-12-15 19:31:49.276--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:31:49.276--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:31:49.277--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1455]
+[EL Fine]: sql: 2021-12-15 19:31:49.279--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:50.808--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:50.809--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:50.811--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:50.811--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:52.061--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:53.783--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:53.786--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:55.067--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:56.794--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:56.795--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:57.463--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE WHERE (NOME = ?)
+	bind => [paulo]
+[EL Fine]: sql: 2021-12-15 19:31:57.466--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO WHERE (NOME = ?)
+	bind => [paulo]
+[EL Fine]: sql: 2021-12-15 19:31:57.474--ClientSession(55369532)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM REUNIAO_PARTICIPANTE WHERE (participantes_ID = ?)
+	bind => [1455]
+[EL Fine]: sql: 2021-12-15 19:31:57.478--ClientSession(55369532)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE REUNIAO SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [2, 5, 1]
+[EL Fine]: sql: 2021-12-15 19:31:57.479--ClientSession(55369532)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM REUNIAO_PARTICIPANTE WHERE ((participantes_ID = ?) AND (reunioes_ID = ?))
+	bind => [1455, 5]
+[EL Fine]: sql: 2021-12-15 19:31:57.48--ClientSession(55369532)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM CONVIDADO WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [1455, 1]
+[EL Fine]: sql: 2021-12-15 19:31:57.482--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:31:57.483--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:31:57.484--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:31:57.484--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1453]
+[EL Fine]: sql: 2021-12-15 19:31:57.487--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:31:57.487--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:31:57.488--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1454]
+[EL Fine]: sql: 2021-12-15 19:31:57.489--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:31:57.49--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:31:58.082--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE REUNIAO SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [3, 5, 2]
+[EL Fine]: sql: 2021-12-15 19:31:58.083--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM REUNIAO_PARTICIPANTE WHERE ((participantes_ID = ?) AND (reunioes_ID = ?))
+	bind => [1453, 5]
+[EL Fine]: sql: 2021-12-15 19:31:58.084--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:58.086--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:31:58.087--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1451]
+[EL Fine]: sql: 2021-12-15 19:31:58.088--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:31:58.089--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1452]
+[EL Fine]: sql: 2021-12-15 19:31:58.09--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:31:58.09--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:31:58.091--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:31:58.092--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:31:59.803--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:31:59.805--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:01.098--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:02.818--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:02.819--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:04.11--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:05.829--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:05.83--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:07.107--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:08.828--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:08.83--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:10.108--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:11.83--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:11.831--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:11.948--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE WHERE (NOME = ?)
+	bind => [joao]
+[EL Fine]: sql: 2021-12-15 19:32:11.949--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO WHERE (NOME = ?)
+	bind => [joao]
+[EL Fine]: sql: 2021-12-15 19:32:11.951--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID FROM PARTICIPANTE WHERE (ID = ?)
+	bind => [1451]
+[EL Fine]: sql: 2021-12-15 19:32:11.952--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM REUNIAO_PARTICIPANTE WHERE (participantes_ID = ?)
+	bind => [1451]
+[EL Fine]: sql: 2021-12-15 19:32:11.953--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--UPDATE REUNIAO SET VERSAO = ? WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [2, 1, 1]
+[EL Fine]: sql: 2021-12-15 19:32:11.953--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM REUNIAO_PARTICIPANTE WHERE ((participantes_ID = ?) AND (reunioes_ID = ?))
+	bind => [1451, 1]
+[EL Fine]: sql: 2021-12-15 19:32:11.954--ClientSession(198720590)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--DELETE FROM PARTICIPANTE WHERE ((ID = ?) AND (VERSAO = ?))
+	bind => [1451, 1]
+[EL Fine]: sql: 2021-12-15 19:32:11.956--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:32:11.956--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:32:11.957--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1452]
+[EL Fine]: sql: 2021-12-15 19:32:11.958--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:32:11.958--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:32:11.959--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:32:11.96--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:32:11.961--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:32:11.962--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO WHERE (ID = ?)
+	bind => [1451]
+[EL Fine]: sql: 2021-12-15 19:32:11.963--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE WHERE (ID = ?)
+	bind => [1451]
+[EL Fine]: sql: 2021-12-15 19:32:13.122--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:13.124--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:32:13.125--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:32:13.126--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1453]
+[EL Fine]: sql: 2021-12-15 19:32:13.127--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:32:13.128--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:32:13.129--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1454]
+[EL Fine]: sql: 2021-12-15 19:32:13.132--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:32:13.132--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:32:14.836--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:14.837--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:16.13--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:17.847--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:17.848--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:19.137--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:20.85--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:20.851--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:22.146--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:23.852--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:23.853--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:25.153--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:26.867--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:26.868--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:28.162--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:29.871--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:29.872--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:31.176--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:32.879--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:32.88--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:33.227--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE WHERE (NOME = ?)
+	bind => [maria]
+[EL Fine]: sql: 2021-12-15 19:32:33.228--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO WHERE (NOME = ?)
+	bind => [maria]
+[EL Fine]: sql: 2021-12-15 19:32:34.184--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:34.186--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:32:34.188--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1452]
+[EL Fine]: sql: 2021-12-15 19:32:34.191--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:32:34.192--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [2]
+[EL Fine]: sql: 2021-12-15 19:32:34.193--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:32:34.195--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [6]
+[EL Fine]: sql: 2021-12-15 19:32:34.196--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [1]
+[EL Fine]: sql: 2021-12-15 19:32:34.198--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:32:34.2--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [3]
+[EL Fine]: sql: 2021-12-15 19:32:34.202--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1453]
+[EL Fine]: sql: 2021-12-15 19:32:34.203--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:32:34.203--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [4]
+[EL Fine]: sql: 2021-12-15 19:32:34.204--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.ASSUNTO, t1.DATAHORA, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, REUNIAO t1 WHERE ((t0.participantes_ID = ?) AND (t1.ID = t0.reunioes_ID))
+	bind => [1454]
+[EL Fine]: sql: 2021-12-15 19:32:34.205--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, PARTICIPANTE t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:32:34.206--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT t1.ID, t1.EMAIL, t1.EMPRESA, t1.NOME, t1.VERSAO FROM REUNIAO_PARTICIPANTE t0, CONVIDADO t1 WHERE ((t0.reunioes_ID = ?) AND (t1.ID = t0.participantes_ID))
+	bind => [5]
+[EL Fine]: sql: 2021-12-15 19:32:35.888--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:35.889--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:37.195--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:38.898--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:38.899--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:40.203--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:41.903--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:41.904--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:43.217--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:44.905--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:44.907--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:46.219--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:47.918--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:47.92--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:49.234--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:50.923--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:50.924--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:52.249--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:53.922--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:53.924--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:55.252--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:56.926--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:56.928--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:58.257--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:59.934--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:32:59.936--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:01.26--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:02.94--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:02.942--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:04.268--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:05.947--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:05.948--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:07.271--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:08.952--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, NOME, VERSAO FROM PARTICIPANTE ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:08.955--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, EMAIL, EMPRESA, NOME, VERSAO FROM CONVIDADO ORDER BY ID
+[EL Fine]: sql: 2021-12-15 19:33:10.276--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--SELECT ID, ASSUNTO, DATAHORA, VERSAO FROM REUNIAO ORDER BY ID
+[EL Fine]: connection: 2021-12-15 19:33:13.185--ServerSession(1023583174)--Connection(106166460)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
+[EL Fine]: connection: 2021-12-15 19:33:13.185--ServerSession(1023583174)--Thread(Thread[AWT-EventQueue-0,6,main])--/file:/C:/Users/joaoj/Desktop/testset/projeto-AgendaReuniao-JPA/target/classes/_eclipselink-postgres_url=jdbc:postgresql://localhost:5432/agendaReuniao logout successful
+[EL Fine]: connection: 2021-12-15 19:33:13.185--ServerSession(1023583174)--Connection(612371463)--Thread(Thread[AWT-EventQueue-0,6,main])--disconnect
