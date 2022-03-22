@@ -1,4 +1,4 @@
-# projeto-agendaReuniao-DB4O
+# projeto-POB-DB4O
 **Grupo:**
 
 .João Jorge Evangelista Fernandes
